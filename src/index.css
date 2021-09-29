@@ -7,6 +7,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+table,
+th,
+td {
+  border: 1px solid rgb(55, 10, 180);
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+}
+table,
+thead,
+th {
+  width: 25%;
+  text-align: center;
+  color: #16193b;
+  border-style: solid;
+}
+td {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #323877;
+  display: flex;
+  justify-content: space-between;
+  border-width: 1px;
+  border-left: hidden;
+  border-right: hidden;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

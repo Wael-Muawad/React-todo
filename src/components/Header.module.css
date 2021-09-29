@@ -1,0 +1,27 @@
+.header {
+  background-color: #9396e2;
+  padding: 20px;
+  text-align: center;
+  /*position: fixed;*/
+  width: 100%;
+  height: 35%;
+  /*z-index: 1;*/
+  /* the z-index property is to bring it in the front of the banner */
+  /*top: 0px;*/
+  /*left: 0px;*/
+}
+
+.headerH1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+nav ul {
+  display: inline-block;
+  color: antiquewhite;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  bottom: 0px;
+}

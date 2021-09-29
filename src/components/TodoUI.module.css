@@ -1,0 +1,152 @@
+.row {
+  display: flex;
+  margin: 30px;
+  justify-content: space-around;
+}
+
+.todos {
+  text-align: center;
+  margin: 20px;
+  max-width: 140px;
+  min-width: 140px;
+}
+.delete {
+  background-color: #323877;
+  font-size: 1rem;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  margin: 2px;
+  cursor: pointer;
+}
+.todoParagraph {
+  font-size: 1.1rem;
+  font-weight: 600;
+  word-wrap: break-word;
+  max-width: 250px;
+}
+.days {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1342px) {
+  .todos {
+    max-width: 100px;
+    min-width: 100px;
+  }
+  .days {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1092px) {
+  .todos {
+    max-width: 80px;
+    min-width: 80px;
+  }
+  .days {
+    font-size: 1rem;
+  }
+  .todoParagraph {
+    font-size: 1rem;
+    font-weight: 500;
+    word-wrap: break-word;
+    max-width: 230px;
+  }
+}
+@media (max-width: 928px) {
+  .todos {
+    max-width: 60px;
+    min-width: 60px;
+  }
+  .days {
+    font-size: 1rem;
+  }
+  .todoParagraph {
+    font-size: 0.9rem;
+    font-weight: 500;
+    word-wrap: break-word;
+    max-width: 230px;
+  }
+}
+@media (max-width: 800px) {
+  .todos {
+    max-width: 80px;
+    min-width: 80px;
+    text-align: left;
+    margin: 5px;
+  }
+  .days {
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 0px;
+  }
+  .todoParagraph {
+    font-size: 0.9rem;
+    font-weight: 500;
+    word-wrap: break-word;
+    max-width: 230px;
+  }
+}
+@media (max-width: 740px) {
+  .row {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+  }
+  .todos {
+    max-width: 80px;
+    min-width: 80px;
+    text-align: left;
+    margin: 5px;
+  }
+  .days {
+    font-size: 0.8rem;
+    text-align: left;
+    margin: 0px;
+  }
+  .todoParagraph {
+    font-size: 0.9rem;
+    font-weight: 450;
+    word-wrap: break-word;
+    max-width: 230px;
+  }
+}
+@media (max-width: 650px) {
+  .parent {
+    display: flex;
+    justify-content: center;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .todos {
+    max-width: 800px;
+    text-align: left;
+    margin: 1px;
+    border-bottom: solid 2px dimgrey;
+  }
+  .days {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+  }
+  .todoParagraph {
+    text-align: center;
+    justify-content: end;
+    font-size: 1rem;
+    font-weight: 450;
+    max-width: 300px;
+  }
+  .delete {
+    background-color: #323877;
+    font-size: 1rem;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+  }
+}
